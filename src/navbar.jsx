@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 import Hero from "./hero";
 import About from "./About";
-import Projects from "./project";
+import Projects from './Project';
 import Contact from "./Contact";
 
 export default function Navbar() {

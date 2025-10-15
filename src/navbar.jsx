@@ -87,15 +87,15 @@ export default function Navbar() {
             </section>
 
             <section id="about">
-            <About/>
+                <About />
             </section>
 
             <section id="projects" className="min-h-screen flex justify-center items-center">
-        <Projects/>
+                <Projects />
             </section>
 
             <section id="contact" className="min-h-screen flex justify-center items-center bg-gray-700">
-                <Contact/>
+                <Contact />
             </section>
 
         </div>

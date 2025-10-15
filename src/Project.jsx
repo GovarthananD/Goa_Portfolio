@@ -4,7 +4,7 @@ import justice from './assets/justice.png';
 import Netflix from './assets/Netflix.png';
 import IMDB from './assets/IMDB.png';
 
-const projects = [
+const projectss = [
   {
     id: 1,
     title: "AI Lawyer",
@@ -61,7 +61,7 @@ const Projects = () => {
 
       {/* 2x2 Responsive Grid with Shadow */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-        {projects.map((project) => (
+        {projectss.map((project) => (
           <div
             key={project.id}
             className="relative group rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"

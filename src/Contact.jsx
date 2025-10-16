@@ -67,19 +67,19 @@ const Contact = () => {
       {/* Waves */}
       <div className="absolute bottom-0 left-0 w-full h-48 z-10">
         <Wavify
-          fill="#4A4F66"
+          fill="#3e414dff"
           paused={false}
           options={{ height: 35, amplitude: 40, speed: 0.15, points: 4 }}
           className="absolute bottom-0 left-0 w-full"
         />
         <Wavify
-          fill="#3A4060"
+          fill="#7d7f8cff"
           paused={false}
           options={{ height: 28, amplitude: 35, speed: 0.2, points: 3 }}
           className="absolute bottom-0 left-0 w-full"
         />
         <Wavify
-          fill="#2C3450"
+          fill="#21242fff"
           paused={false}
           options={{ height: 22, amplitude: 30, speed: 0.25, points: 5 }}
           className="absolute bottom-0 left-0 w-full"

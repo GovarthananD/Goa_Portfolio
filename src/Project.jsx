@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import justice from './assets/justice.png';
 import Netflix from './assets/Netflix.png';
 import IMDB from './assets/IMDB.png';
+import blogs from './assets/blogs.png'
 
 const projectss = [
   {
@@ -33,6 +34,13 @@ const projectss = [
     description: "Outfit cloth & colour suggestion site using Reactjs, Nodejs, MongoDB",
     image: "https://images.hdqwalls.com/download/amanda-qe-1920x1080.jpg",
     demo: "https://gregarious-starlight-9ad7c0.netlify.app/",
+  },
+  {
+    id: 5,
+    title: "Social Blogs",
+    description: "Anyone can login and create blogs. Authorized user can Create, Update and Delete their own blogs. Otherwise other users blogs can see",
+    image: blogs,
+    demo: "https://arnifblogs.netlify.app/",
   },
 ];
 

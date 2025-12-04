@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import { EffectCoverflow, Autoplay } from "swiper/modules";
-import Govarthanan_FSD_Resume from './assets/Govarthanan_FSD_Resume.pdf'
+import Govarthanan_FSD from './assets/Govarthanan_FSD.pdf'
 
 export default function About() {
   const { ref: aboutRef, inView: aboutInView } = useInView({ threshold: 0.3, triggerOnce: false });
@@ -53,8 +53,8 @@ export default function About() {
               {/* Parallax Swiper */}
           <div ref={parallaxRef} className="mt-8 md:mt-12 w-full">
             <motion.a
-            href={Govarthanan_FSD_Resume}
-            download="Govarthanan_FSD_Resume"
+            href={Govarthanan_FSD}
+            download="Govarthanan_FSD"
             animate={{ y: [0, -8, 0] }} // small up-down infinite motion
             transition={{
               duration: 2,       // speed of the animation

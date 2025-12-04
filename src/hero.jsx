@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import cube1 from "./assets/cube1.mp4";
 import AnimatedHeading from "./animate";
-import Govarthanan_FSD_Resume from './assets/Govarthanan_FSD_Resume.pdf';
+import Govarthanan_FSD from './assets/Govarthanan_FSD.pdf';
 
 
 export default function Hero() {
@@ -46,8 +46,8 @@ export default function Hero() {
 
       {/* Hire Me Button */}
       <motion.a
-        href={Govarthanan_FSD_Resume}
-        download="Govarthanan_FSD_Resume"
+        href={Govarthanan_FSD}
+        download="Govarthanan_FSD"
         animate={{ y: [0, -8, 0] }} // small up-down infinite motion
         transition={{
           duration: 2,       // speed of the animation
